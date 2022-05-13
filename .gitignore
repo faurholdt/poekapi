@@ -1,0 +1,4 @@
+.vscode
+package/
+*.zip
+.python-version
