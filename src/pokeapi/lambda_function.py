@@ -112,8 +112,8 @@ def upload_to_s3(json_to_upload: dict, bucket_name: str):
 
     # The password in plain text is obviously a very bad idea...
     session = boto3.Session(
-        aws_access_key_id="AKIAY2TFIG3UGBZVYS5Q",
-        aws_secret_access_key="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",
+        aws_access_key_id="",
+        aws_secret_access_key="",
     )
     s3 = session.resource("s3")
 
